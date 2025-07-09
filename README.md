@@ -1,10 +1,7 @@
 # matlab code for  
-Chow S-F, Wick SD, Riecke H (2012) Neurogenesis Drives Stimulus  
-Decorrelation in a Model of the Olfactory Bulb. *PLoS Comput Biol* 8(3):  
-e1002398. doi:10.1371/journal.pcbi.1002398  
+Chow S-F, Wick SD, Riecke H (2012) Neurogenesis Drives Stimulus Decorrelation in a Model of the Olfactory Bulb. *PLoS Comput Biol* 8(3): e1002398. doi:10.1371/journal.pcbi.1002398  
 
-run main.m for figures similar to fig.2, but with only 26 channels  
-set sim = 10 for 442 channels  
+run main.m for figures similar to fig.2, but with only 26 channels set sim = 10 for 442 channels  
 
 run main2.m for figures similar to fig.9  
 - enrich = [1 2]; for related enrichment  
@@ -48,8 +45,8 @@ run main2.m for figures similar to fig.9
 
 We gratefully acknowledge the support of NSF grant DMS-0719944  
 
+## Changelog
+
 20121127 matlab code in main.m main2.m modified by replacing ~ with the variable "ignore" for backwards compatibility with matlab versions before R2009b.
 
----
-
-2025-07-09: Converted README to Markdown.
+20250709 Converted README to Markdown.
